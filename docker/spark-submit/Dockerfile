@@ -1,4 +1,4 @@
-FROM spark-base-graalvm:latest
+FROM spark-base-graalvm-devel:latest
 
 COPY spark-submit.sh /
 
